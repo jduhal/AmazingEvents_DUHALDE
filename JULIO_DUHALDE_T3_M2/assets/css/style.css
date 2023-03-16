@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana;
+    font-size: 18px;
+}
+
+#logo {
+    width: 350px;
+    height: 180px;
+}
+
+body {
+    max-height: 120vh;
+    font-size: 16px;
+    background-color: rgb(246, 249, 250);
+}
+
+header {
+    min-height: 8vh;
+}
+
+main {
+    background-color:bisque;
+    min-height: 80vh;
+}
+
+.btn-active {
+    background-color: rgba(8, 206, 93, 0.788);
+    box-shadow: 3px 3px 3px 2px rgba(231, 239, 106, 0.989);
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    color: rgb(241, 244, 215);
+    font-weight: bold;
+
+}
+
+.btn-nav {
+    background-color: rgba(16, 38, 239, 0.829);
+    box-shadow: 3px 3px 3px 2px rgba(230, 239, 101, 0.989);
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    color: rgb(241, 244, 215);
+    font-weight: bold;
+
+
+}
+
+.nav-link:hover {
+    background-color: rgb(232, 51, 51);
+}
+
+.carousel {
+    background-color: #2ee53a;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23ffffff' fill-opacity='0.33' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+.d-block{
+    height: 10rem;
+}
+
+.imagen {
+    object-fit: cover;
+}
+
+#carouselSize {
+    max-height: 20vh;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: invert(200%);
+    width:3rem;
+    height:3rem;
+}
+
+#formCategories{
+    font-weight:lighter;
+    font-size: 1px;
+    border: rgb(246, 127, 15) 1px solid;
+    background-color:darksalmon;
+}
+
+.form-control {
+    max-width: 20vh;
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+    border-color: #D7B1D7;
+  }
+
+.card {
+    width: 22rem;
+    font-style: oblique;
+    font-weight: bold;
+    background-color:darksalmon;
+    border: rgb(246, 127, 15) 5px solid;
+}
+
+.card-img-top {
+    margin: 0.5rem 0.5rem;
+    width: 20.5rem !important;
+    height: 14rem !important;
+    object-fit: cover;
+    object-position: 50% 0%;
+    box-shadow: 3px 3px 3px 2px rgba(206, 239, 153, 0.39);
+    font-weight: bold;
+
+}
+
+.card-text {
+    min-height: 5rem;
+    font-weight: bold;
+}
+
+.img-fluid {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    box-shadow: 4px 4px 4px 3px rgba(0, 0, 0, 0.39);
+}
+
+#cardsIndex{
+    background-color:rgb(248, 239, 229);
+    border: blue 5px solid;
+}
+
+#cardsPastEvents,cardsUpcomingEvents{
+    background-color:rgb(248, 239, 229);
+    border: blue 5px solid;
+}
+
+#cardsUpcomingEvents{
+    background-color:rgb(248, 239, 229);
+    border: blue 5px solid;
+}
+
+#contactForm {
+    width: 50%;
+    font-size: 22px;
+    color: rgb(33, 5, 247);
+    font-weight: bold;
+    text-align: start;
+    border: blue 5px solid;
+    background-color: darkkhaki;
+}
+
+#cardDetails {
+    width: 100%;
+    background-color:rgb(157, 184, 233);
+    color:darkblue;
+    border: blue 5px solid;
+    
+    
+}
+
+.go:hover {
+    background-color: rgb(235, 79, 84);
+}
+
+.borderRadius {
+    border-radius: 5px;
+    border-style: none;
+}
+
+.btn-special {
+    color: rgb(82, 7, 244);
+}
+
+#magnifier {
+    max-height: 2rem;
+}
+
+table {
+    border: blue 5px solid;
+    margin-right: 15px;
+    padding: 15px;
+    width: 100%;
+}
+
+.stats_title {
+    color: rgb(33, 5, 247);
+}
+
+.contact_title {
+    color: rgb(33, 5, 247);
+    position: relative;
+    margin-left: 12rem;
+}
+
+.btn{
+    color: rgb(241, 244, 215);
+}
+
+th {
+    background-color: rgba(177, 238, 130, 0.459);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+tr {
+    height: 1rem;
+}
+
+td {
+    border: 1px solid rgb(0, 0, 0);
+    width: 33%;
+}
+
+footer {
+    background-color: #2aec61;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23ffffff' fill-opacity='0.33' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+    min-height: 5vh;
+}
+
+#divIconos {
+    margin-left: 1rem;
+    width: 20%;
+}
+
+.iconosFooter {
+    width: 2rem;
+    margin: 0 1rem;
+}
+
+@media (max-width:400px) {
+    #contactForm {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        width: 90%;
+    }
+
+    #cardDetails {
+        width: 90%;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer>div>p {
+        padding-left: 2rem;
+        padding-top: 1rem;
+    }
+}
